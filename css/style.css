@@ -1,5 +1,59 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing:
+  box-sizing:border-box;
+}
+.center{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* SEZIONE DELLA LOGINBAR e NAVBAR */
+/* LOGINBAR */
+
+.nav_login{
+  content: "";
+  display: table;
+  clear: both;
+  background-color: green;
+  width: 100%;
+}
+.lingua_nav{
+  float: left;
+  background-color: red;
+  /* debug */
+  height: 50px;
+  width: 20%;
+}
+.lista_login{
+  float: left;
+  background-color: blue;
+  /* debug */
+  height: 50px;
+  width: 20%;
+  margin-left: 60%;
+}
+
+/* NAVBAR */
+.nav_bar{
+  content: "";
+  display: table;
+  clear: both;
+  background-color: orange;
+  width: 100%;
+}
+.logo_nav{
+  float: left;
+  background-color: yellow;
+  /* debug */
+  height: 50px;
+  width: 20%;
+}
+.lista_nav{
+  float: left;
+  background-color: purple;
+  /* debug */
+  height: 50px;
+  width: 20%;
+  margin-left: 60%;
 }
