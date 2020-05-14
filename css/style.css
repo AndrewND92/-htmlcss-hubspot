@@ -71,7 +71,28 @@ li {
   background-repeat: no-repeat;
   background-position: right;
 }
+.text_back_header{
+  padding-top: 150px;
+  width: 45%;
+}
 .text_back_header h2{
   font-size: 60px;
-
+  color: #333333;
+}
+.text_back_header p{
+  font-size: 20px;
+  font-weight: 600;
+  color: #333333;
+  margin: 25pX 0;
+  margin-bottom: 70px;
+}
+.text_back_header a{
+  background-color:#ff842a;
+  padding: 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+}
+.text_back_header p:last-child{
+  margin-top: 50px;
 }
