@@ -7,7 +7,10 @@
   width: 80%;
   margin: 0 auto;
 }
+li {
+  display: inline-block;
 
+  }
 /* SEZIONE DELLA LOGINBAR e NAVBAR */
 /* LOGINBAR */
 
@@ -19,14 +22,14 @@
   width: 100%;
   border-bottom: 1px solid white;
 }
-.lingua_nav{
+#nav_login .lingua_nav{
   float: left;
   background-color: red;
   /* debug */
   height: 50px;
   width: 20%;
 }
-.lista_login {
+#nav_login .lista_login {
   float: left;
   background-color: blue;
   /* debug */
@@ -43,18 +46,32 @@
   background-color: orange;
   width: 100%;
 }
-.logo_nav{
+#nav_bar .logo_nav{
   float: left;
   background-color: yellow;
   /* debug */
   height: 50px;
   width: 20%;
 }
-.lista_nav{
+#nav_bar .lista_nav{
   float: left;
   background-color: purple;
   /* debug */
   height: 50px;
   width: 20%;
   margin-left: 60%;
+}
+ /* SEZIONE BACKROUND HEADER */
+
+.background_header{
+  width: 100%;
+  height: 1000px;
+  background-image: url(../img/jumbotron.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.text_back_header h2{
+  font-size: 60px;
+
 }
