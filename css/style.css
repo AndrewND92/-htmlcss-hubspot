@@ -189,3 +189,6 @@ main{
   margin: 15px 0;
   display: block;
 }
+.colonna2 li {
+  margin: 0 10px;
+}
