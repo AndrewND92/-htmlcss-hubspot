@@ -7,13 +7,17 @@
   width: 80%;
   margin: 0 auto;
 }
+ul{
+  margin: 10px 10px;
+  text-align: center;
+}
 li {
   display: inline-block;
+}
 
-  }
 /* SEZIONE DELLA LOGINBAR e NAVBAR */
-/* LOGINBAR */
 
+/* LOGINBAR */
 #nav_login{
   content: "";
   display: table;
@@ -31,7 +35,7 @@ li {
 }
 #nav_login .lista_login {
   float: left;
-  background-color: blue;
+  background-color: wheat;
   /* debug */
   height: 50px;
   width: 20%;
@@ -58,11 +62,11 @@ li {
   background-color: purple;
   /* debug */
   height: 50px;
-  width: 20%;
-  margin-left: 60%;
+  width: 40%;
+  margin-left: 40%;
 }
- /* SEZIONE BACKROUND HEADER */
 
+/* SEZIONE BACKROUND HEADER */
 .background_header{
   width: 100%;
   height: 1000px;
@@ -95,4 +99,27 @@ li {
 }
 .text_back_header p:last-child{
   margin-top: 50px;
+}
+/* SEZIONE CENTRALE CON COLONNE */
+#box_centrale{
+  color: #333333;
+}
+.prima_riga{
+  width: 50%;
+  /* height:200px; */
+  /* background-color: wheat; */
+  text-align: center;
+  margin: 0 auto;
+}
+.prima_riga img {
+  width: 300px;
+}
+.prima_riga h2{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.prima_riga span{
+  font-size: 20px;
+  font-weight: 600;
+
 }
