@@ -194,23 +194,14 @@ main{
   margin: 0 10px;
 }
 /* TERZA RIGA */
+.terza_riga li{
+  display: block;
+}
 [class*="colonna_"]{
   float:left;
   width: 31%;
   margin: 15px;
   text-align: center;
-}
-
-.terza_riga p{
-  font-size: 20px;
-  font-weight: 600;
-  color: #333333;
-}
-.colonna_1 p {
-  margin-top: 15px;
-}
-.colonna_2 p {
-  margin-top: 45px;
 }
 .terza_riga{
   content: "";
@@ -219,6 +210,34 @@ main{
   /* debug */
   height: 500px;
   margin-top:40px;
-  background-color: wheat;
   width: 100%;
+  border: 2px solid #c9c9c9;
+  background-color: white;
+  padding: 50px;
+  padding-bottom: 5px;
+}
+
+.terza_riga p{
+  font-size: 20px;
+  font-weight: 600;
+  color: #333333;
+  padding-bottom: 30px;
+  border-bottom: 1px solid  #333333;
+}
+.colonna_1 p {
+  margin-top: 15px;
+}
+
+.colonna_1 h2 {margin-top: 15px;
+}
+
+.colonna_2 p {
+  margin-top: 14px;
+}
+
+.colonna_2 h2 {
+  margin-top:45px;
+}
+.colonna_3 p {
+  margin-top: 14px;
 }
