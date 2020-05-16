@@ -197,12 +197,23 @@ main{
 .terza_riga li{
   display: block;
 }
+.terza_riga h3, ul {
+  margin-top: 35px;
+}
+.terza_riga ul{
+  margin-bottom: 35px;
+}
 [class*="colonna_"]{
   float:left;
   width: 31%;
   margin: 15px;
   text-align: center;
+  border: 2px solid #c9c9c9;
+  background-color: white;
+  padding: 50px;
+  padding-bottom: 5px;
 }
+
 .terza_riga{
   content: "";
   display: table;
@@ -210,12 +221,8 @@ main{
   /* debug */
   height: 500px;
   margin-top:40px;
-  width: 100%;
-  border: 2px solid #c9c9c9;
-  background-color: white;
-  padding: 50px;
-  padding-bottom: 5px;
 }
+
 
 .terza_riga p{
   font-size: 20px;
