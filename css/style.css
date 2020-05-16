@@ -171,6 +171,7 @@ main{
   margin-top:40px;
   border: 2px solid #c9c9c9;
   background-color: white;
+  padding: 50px;
 }
 .colonna1{
   float: left;
@@ -191,4 +192,33 @@ main{
 }
 .colonna2 li {
   margin: 0 10px;
+}
+/* TERZA RIGA */
+[class*="colonna_"]{
+  float:left;
+  width: 31%;
+  margin: 15px;
+  text-align: center;
+}
+
+.terza_riga p{
+  font-size: 20px;
+  font-weight: 600;
+  color: #333333;
+}
+.colonna_1 p {
+  margin-top: 15px;
+}
+.colonna_2 p {
+  margin-top: 45px;
+}
+.terza_riga{
+  content: "";
+  display: table;
+  clear: both;
+  /* debug */
+  height: 500px;
+  margin-top:40px;
+  background-color: wheat;
+  width: 100%;
 }
