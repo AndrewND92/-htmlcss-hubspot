@@ -237,6 +237,7 @@ main{
 .colonna_3 p {
   margin-top: 14px;
 }
+
 /* SEZIONE SFUMATURA */
 #box_sfumatura {
   text-align: center;
@@ -293,13 +294,12 @@ main{
 #box_sponsor{
   background-color: white;
   width: 100%;
-  height: 400px;
 }
 .riga_sponsor{
   content: "";
   display: table;
   clear: both;
-  margin-top:40px;
+  margin:40px 0;
   width: 100%;
 }
 .sponsor img {
@@ -331,7 +331,6 @@ main{
 .start_grow{
   float: left;
   width: 30%;
-  height: 200px;
 }
 .start_grow p, h2 {
   text-align: left;
@@ -348,4 +347,29 @@ main{
 .start_grow span {
   display: block;
   margin-top: 20px;
+}
+/* SEZIONE FOOTER */
+#footer li{
+  display: block;
+}
+[class*=col_footer]{
+  float: left;
+  width: 25%;
+  /* debug */
+  height:200px;
+}
+#footer{
+  width: 100%;
+  /* debug */
+  height: 400px;
+  background-color:#22314b ;
+}
+.riga_footer{
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+  /* debug */
+  height: 300px;
+  background-color: wheat;
 }
