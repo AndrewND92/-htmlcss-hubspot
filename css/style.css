@@ -215,7 +215,6 @@ main{
   margin-top:40px;
 }
 
-
 .terza_riga p{
   color: #333333;
   padding-bottom: 30px;
@@ -238,7 +237,9 @@ main{
 .colonna_3 p {
   margin-top: 14px;
 }
-
+.colonna_3 img{
+  height: 147px;
+}
 /* SEZIONE SFUMATURA */
 #box_sfumatura {
   text-align: center;
