@@ -26,37 +26,38 @@ a {
   color: #333333;
 }
 
+
 /* SEZIONE DELLA LOGINBAR e NAVBAR */
 nav li {
   margin: 15px;
 }
+
+
 /* LOGINBAR */
 #nav_login{
   content: "";
   display: table;
   clear: both;
-  /* background-color: green; */
   width: 100%;
   border-bottom: 1px solid black;
 }
 #nav_login .lingua_nav{
   float: left;
-  /* background-color: red; */
-  /* debug */
   height: 50px;
   width: 50%;
 }
 #nav_login .lista_login {
   float: left;
-  /* background-color: wheat; */
-  /* debug */
   height: 50px;
   width: 50%;
-  /* margin-left: 40%; */
 }
+
+
+
 .lista_login ul, .lista_nav ul {
   text-align: right;
 }
+
 
 /* NAVBAR */
 #nav_bar img{
@@ -80,12 +81,12 @@ nav li {
 }
 #nav_bar .lista_nav{
   float: left;
-  /* background-color: purple; */
-  /* debug */
   height: 50px;
   width: 50%;
-  /* margin-left: 40%; */
 }
+
+
+
 
 /* SEZIONE BACKROUND HEADER */
 .background_header{
@@ -115,23 +116,23 @@ nav li {
   border-radius: 10px;
   color: white;
 }
-
 .text_back_header p:last-child{
   margin-top: 50px;
 }
+
+
+
 /* SEZIONE CENTRALE CON COLONNE */
-main{
-  background-color: #ededed;
-}
 #box_centrale{
   color: #333333;
 }
+
+
 /* PRIMA RIGA */
 .prima_riga{
   width: 50%;
   text-align: center;
   margin: 0 auto;
-
 }
 .prima_riga img {
   width: 300px;
@@ -145,6 +146,7 @@ main{
   font-size: 20px;
   font-weight: 600;
 }
+
 
 /* SECONDA RIGA */
 #box_centrale img{
@@ -189,11 +191,17 @@ main{
 .colonna2 li {
   margin: 0 10px;
 }
+
+
+
+
+
+
+
 /* TERZA RIGA */
 .terza_riga li{
   display: block;
 }
-
 .terza_riga ul{
   margin-bottom: 35px;
 }
@@ -207,12 +215,11 @@ main{
   padding: 50px;
   padding-bottom: 40px;
 }
-
 .terza_riga{
   content: "";
   display: table;
   clear: both;
-  margin-top:40px 0;
+  margin-top:40px ;
 }
 .terza_riga h2{
   text-align: center;
@@ -225,14 +232,11 @@ main{
 .colonna_1 p {
   margin-top: 15px;
 }
-
 .colonna_1 h2 {margin-top: 15px;
 }
-
 .colonna_2 p {
   margin-top: 14px;
 }
-
 .colonna_2 h2 {
   margin-top:45px;
 }
@@ -242,6 +246,8 @@ main{
 .colonna_3 img{
   height: 147px;
 }
+
+
 /* SEZIONE SFUMATURA */
 #box_sfumatura {
   text-align: center;
@@ -295,6 +301,8 @@ main{
 .col_tab5,.col_tab6,.col_tab7,.col_tab8{
   border-bottom: 0;
 }
+
+
 /* SEZIONE SPONSOR */
 #box_sponsor{
   background-color: white;
@@ -353,11 +361,13 @@ main{
   display: block;
   margin-top: 20px;
 }
+
+
 /* SEZIONE FOOTER */
 #footer{
   width: 100%;
   /* debug */
-  height: 500px;
+  height: 440px;
   background-color:#22314b;
   color: #ececec;
 }
@@ -368,6 +378,7 @@ main{
   float: left;
   width: 25%;
 }
+
 
 /* PRIMA RIGA DEL FOOTER */
 .riga_footer{
@@ -390,14 +401,14 @@ main{
   border-radius: 5px;
   color: #22314b;
 }
+
+
 /* SECONDA RIGA DEL FOOTER */
 .riga_footer2{
   content: "";
   display: table;
   clear: both;
   width: 100%;
-  height: 200px;
-
 }
 .riga_footer2 a {
   color: #ececec;
@@ -417,13 +428,11 @@ main{
 .logo_footer{
   float: left;
   width: 50%;
-  height: 100;
   padding: 15px;
 }
 .legalstuff_footer{
   float: left;
   width: 50%;
-  height: 100px;
   text-align: right;
   padding: 15px;
 }
